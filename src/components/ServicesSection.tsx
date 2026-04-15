@@ -49,10 +49,10 @@ const ServicesSection = () => {
                   }}
                 />
                 <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
-                    <service.icon className="w-6 h-6" style={{ color: "#fff" }} />
+                  <div className="w-11 h-11 md:w-14 md:h-14 rounded-xl gold-gradient flex items-center justify-center mb-4 md:mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
+                    <service.icon className="w-5 h-5 md:w-6 md:h-6" style={{ color: "#fff" }} />
                   </div>
-                  <h3 className="font-heading text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
+                  <h3 className="font-heading text-base md:text-xl font-semibold text-foreground mb-2 md:mb-3 group-hover:text-primary transition-colors duration-300">
                     {service.title}
                   </h3>
                   <p className="text-muted-foreground text-sm leading-relaxed font-body">
