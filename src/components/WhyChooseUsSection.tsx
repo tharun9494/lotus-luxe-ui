@@ -25,13 +25,13 @@ const WhyChooseUsSection = () => {
           </h2>
         </AnimatedSection>
 
-        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-5">
           {reasons.map((r, i) => (
             <motion.div
               key={r.title}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-40px" }}
+              viewport={{ once: true, amount: 0 }}
               transition={{ duration: 0.5, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="glass-card p-6 text-center hover-lift glow-border h-full group">
