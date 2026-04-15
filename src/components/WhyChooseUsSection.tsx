@@ -25,7 +25,7 @@ const WhyChooseUsSection = () => {
           </h2>
         </AnimatedSection>
 
-        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-5">
           {reasons.map((r, i) => (
             <motion.div
               key={r.title}
