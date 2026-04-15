@@ -35,7 +35,7 @@ const AboutSection = () => {
               <motion.div
                 initial={{ scale: 0.9, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0 }}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                 className="relative overflow-hidden rounded-2xl"
               >
@@ -53,7 +53,7 @@ const AboutSection = () => {
               <motion.div
                 initial={{ x: 40, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="absolute -bottom-6 -right-6 glass-card-gold p-6 hidden md:block"
               >

@@ -31,7 +31,7 @@ const WhyChooseUsSection = () => {
               key={r.title}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.05 }}
+              viewport={{ once: true, amount: 0 }}
               transition={{ duration: 0.5, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="glass-card p-6 text-center hover-lift glow-border h-full group">

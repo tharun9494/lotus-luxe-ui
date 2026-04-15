@@ -30,7 +30,7 @@ const ProcessSection = () => {
           <motion.div
             initial={{ scaleX: 0 }}
             whileInView={{ scaleX: 1 }}
-            viewport={{ once: true, amount: 0.05 }}
+            viewport={{ once: true, amount: 0 }}
             transition={{ duration: 1.5, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
             className="hidden lg:block absolute top-8 left-[10%] right-[10%] h-[2px] origin-left"
             style={{ background: "linear-gradient(to right, hsl(40,60%,50%), hsl(40,50%,70%), hsl(40,60%,50%))" }}
@@ -42,7 +42,7 @@ const ProcessSection = () => {
                 key={step.title}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.05 }}
+                viewport={{ once: true, amount: 0 }}
                 transition={{ duration: 0.6, delay: i * 0.15 + 0.2, ease: [0.22, 1, 0.36, 1] }}
                 className="relative flex flex-col items-center text-center group"
               >
