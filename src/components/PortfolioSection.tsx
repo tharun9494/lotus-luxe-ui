@@ -10,10 +10,10 @@ import portfolioLiving from "@/assets/portfolio-living.jpg";
 import portfolioBathroom from "@/assets/portfolio-bathroom.jpg";
 
 const projects = [
-  { img: portfolioLiving, title: "Luxury Living Room", category: "Residential", span: "md:col-span-2 md:row-span-2" },
+  { img: portfolioLiving, title: "Luxury Living Room", category: "Residential", span: "col-span-2 md:row-span-2" },
   { img: portfolioKitchen, title: "Modular Kitchen", category: "Kitchen", span: "" },
   { img: portfolioBedroom, title: "Master Bedroom", category: "Residential", span: "" },
-  { img: portfolioOffice, title: "Corporate Office", category: "Commercial", span: "md:col-span-2" },
+  { img: portfolioOffice, title: "Corporate Office", category: "Commercial", span: "col-span-2" },
   { img: portfolioElevation, title: "Villa Elevation", category: "Exterior", span: "" },
   { img: portfolioBathroom, title: "Luxury Bathroom", category: "Residential", span: "" },
 ];

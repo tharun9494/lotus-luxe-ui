@@ -36,7 +36,7 @@ const ProcessSection = () => {
             style={{ background: "linear-gradient(to right, hsl(40,60%,50%), hsl(40,50%,70%), hsl(40,60%,50%))" }}
           />
 
-          <div className="grid lg:grid-cols-5 gap-10 lg:gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-6">
             {steps.map((step, i) => (
               <motion.div
                 key={step.title}
