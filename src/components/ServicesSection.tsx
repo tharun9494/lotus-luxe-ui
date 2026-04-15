@@ -40,7 +40,7 @@ const ServicesSection = () => {
               viewport={{ once: true, amount: 0 }}
               transition={{ duration: 0.6, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
             >
-              <div className="glass-card p-8 h-full hover-lift glow-border cursor-pointer group relative overflow-hidden">
+              <div className="glass-card p-5 md:p-8 h-full hover-lift glow-border cursor-pointer group relative overflow-hidden">
                 {/* Hover shimmer */}
                 <div
                   className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
